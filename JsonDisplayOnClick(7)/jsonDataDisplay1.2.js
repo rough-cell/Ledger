@@ -152,6 +152,7 @@ class ClsJsonDataDisplay {
 
                 cardDiv.on('click', (event) => {
                     const categoryId = parseInt($(event.target).closest('div').find('p:first').text());
+                    
                     this.displayData(categoryId);
                 });
             });
